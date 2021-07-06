@@ -1,3 +1,22 @@
-* {
-    background-color: 21, 138, 83;
+#logos {
+    background-color: rgb(21, 138, 83);
+    border-radius: 10px;
+}
+
+#logo {
+    border: none;
+    margin: none;
+    border-radius: 10px;
+}
+
+#slogan {
+    float: inline-end;
+}
+
+#usos {
+    float: inline-start;
+}
+
+#intro {
+    float: inline-end;
 }
