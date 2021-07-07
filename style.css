@@ -1,23 +1,27 @@
-#logos {
-    background-color: black;
+.homepage {
+    background-color: green;
     border-radius: 10px;
-    height: 200px;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
 
 #logo {
     border: none;
     margin: none;
     border-radius: 10px;
-    float: inline-start;
-    size: 100px;
+    height: 100%;
+    position: top;
+    ;
 }
 
 #slogan {
     color: black;
-    text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-shadow: 2px 2px 5px green;
     font-size: 30px;
+    position: center;
+    ;
 }
 
 #usos {
@@ -25,15 +29,15 @@
 }
 
 #intro {
-    float: inline-end;
+    float: left;
 }
 
 #snvrd {
     font-family: 'Abril Fatface', serif;
     font-size: 86px;
-    color: white;
+    color: black;
     padding: 0px;
     border: 0px;
     margin: 0px;
-    text-align: center;
+    float: center;
 }
