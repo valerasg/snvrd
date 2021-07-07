@@ -1,16 +1,22 @@
 #logos {
     background-color: rgb(21, 138, 83);
     border-radius: 10px;
+    height: 200px;
 }
 
 #logo {
     border: none;
     margin: none;
     border-radius: 10px;
+    float: inline-start;
 }
 
 #slogan {
-    float: inline-end;
+    color: black;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    text-shadow: 2px 2px 5px green;
+    font-size: 30px;
 }
 
 #usos {
@@ -19,4 +25,14 @@
 
 #intro {
     float: inline-end;
+}
+
+#snvrd {
+    font-family: 'Abril Fatface', serif;
+    font-size: 86px;
+    color: white;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    text-align: center;
 }
