@@ -1,26 +1,21 @@
 .homepage {
     background-color: green;
     border-radius: 10px;
-    height: 100%;
-    width: 100%;
+    size: 100px;
     display: inline-block;
 }
 
 #logo {
-    border: none;
-    margin: none;
+    size: 100px;
     border-radius: 10px;
-    height: 100%;
-    position: top;
+    position: inherit;
     ;
 }
 
 #slogan {
     color: black;
     font-family: 'Poppins', sans-serif;
-    text-shadow: 2px 2px 5px green;
     font-size: 30px;
-    position: center;
     ;
 }
 
@@ -33,11 +28,12 @@
 }
 
 #snvrd {
+    color: black;
     font-family: 'Abril Fatface', serif;
     font-size: 86px;
-    color: black;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    float: center;
+    position: absolute;
+}
+
+ul {
+    display: inline;
 }
