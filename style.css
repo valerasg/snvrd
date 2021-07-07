@@ -1,5 +1,5 @@
 #logos {
-    background-color: rgb(21, 138, 83);
+    background-color: black;
     border-radius: 10px;
     height: 200px;
 }
@@ -9,6 +9,7 @@
     margin: none;
     border-radius: 10px;
     float: inline-start;
+    size: 100px;
 }
 
 #slogan {
