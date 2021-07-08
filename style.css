@@ -1,22 +1,24 @@
 .homepage {
     background-color: green;
     border-radius: 10px;
-    size: 100px;
+    size: auto;
     display: inline-block;
+}
+
+body {
+    background: green;
 }
 
 #logo {
     size: 100px;
     border-radius: 10px;
     position: inherit;
-    ;
 }
 
 #slogan {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    ;
 }
 
 #usos {
