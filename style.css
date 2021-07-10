@@ -1,18 +1,23 @@
-.homepage {
-    background-color: green;
-    border-radius: 10px;
-    size: auto;
-    display: inline-block;
-}
-
 body {
     background: green;
 }
 
 #logo {
-    size: 100px;
     border-radius: 10px;
-    position: inherit;
+    margin-inline-start: auto;
+}
+
+header {
+    background-color: green;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+#snvrd {
+    color: black;
+    font-family: 'Abril Fatface', serif;
+    font-size: 86px;
+    margin-inline: auto;
 }
 
 #slogan {
@@ -27,13 +32,6 @@ body {
 
 #intro {
     float: left;
-}
-
-#snvrd {
-    color: black;
-    font-family: 'Abril Fatface', serif;
-    font-size: 86px;
-    position: absolute;
 }
 
 ul {
