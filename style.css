@@ -1,39 +1,46 @@
-body {
-    background: green;
+body,h1 {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-#logo {
-    border-radius: 10px;
-    margin-inline-start: auto;
+
+.container {
+  display: grid;
+  background-color: black;
+  background-image: url('./images/bkg0.jpg');
+  background-position:100vw;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  transition: 10s;
+  animation-name: animate;
+  animation-direction: alternate;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
 }
 
-header {
-    background-color: green;
-    border-radius: 10px;
-    display: inline-flex;
+.aviso {
+    padding: 12px;
+    color: white;
+    margin: auto;
+    font-size: 80px;
+    font-weight: bold;
 }
 
-#snvrd {
-    color: black;
-    font-family: 'Abril Fatface', serif;
-    font-size: 86px;
-    margin-inline: auto;
+@keyframes animate {
+  0% { background-size: 100%; }
+  25% { background-size: 105%}
+  50% { background-size: 110%; }
+  75% { background-size: 115% }
+  100% { background-size: 100% }
 }
 
-#slogan {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-}
-
-#usos {
-    float: inline-start;
-}
-
-#intro {
-    float: left;
-}
-
-ul {
-    display: inline;
+.logo {
+  display:static;
+  float: left;
 }
