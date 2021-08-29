@@ -1,39 +1,44 @@
-body {
-    background: green;
-}
+*,
+ body {
+    /* border: solid 2px red; */
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    background-image: url ('/images/bkg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    box-sizing: content-box;
+    }
 
-#logo {
-    border-radius: 10px;
-    margin-inline-start: auto;
-}
+  div {
+    position:fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: transparent;
+    background: transparent;
+  }
 
-header {
-    background-color: green;
-    border-radius: 10px;
-    display: inline-flex;
-}
+  h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin: 3em;
+    text-align: center;
+    padding: auto;
+    overflow: hidden;
+    background-color: transparent;
+    background: transparent;
+    overflow: hidden;
+  }
 
-#snvrd {
-    color: black;
-    font-family: 'Abril Fatface', serif;
-    font-size: 86px;
-    margin-inline: auto;
-}
-
-#slogan {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-}
-
-#usos {
-    float: inline-start;
-}
-
-#intro {
-    float: left;
-}
-
-ul {
-    display: inline;
+  span {
+    color: green;
+    background: transparent;
+  }
 }

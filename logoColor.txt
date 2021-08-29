@@ -1,6 +1,0 @@
-red, 21
-green, 138
-blue, 83
-hue, 101
-sat, 177
-lum, 75
