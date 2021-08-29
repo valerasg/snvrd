@@ -25,14 +25,15 @@
   }
 
   h1 {
-    font-size: 80px;
+    font-size: 46px;
     font-weight: 900;
     color: white;
     text-shadow: 1px 1px 1px black;
-    margin: 3em;
+    margin:10% 1%;
     text-align: center;
-    padding: auto;
+    padding:40% 1%;
     overflow: hidden;
+    width: 60%;
     background-color: transparent;
     background: transparent;
     overflow: hidden;
@@ -43,3 +44,12 @@
     background: transparent;
   }
 
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 80px;
+    padding: 5% 5%;
+    width: 60%;
+    margin:5% 5%;
+  }
+  
+}
