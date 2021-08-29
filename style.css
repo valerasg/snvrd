@@ -24,7 +24,15 @@
     background: transparent;
   }
 
+  main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
   h1 {
+    grid-column: 2;
     font-size: 46px;
     font-weight: 900;
     color: white;
@@ -37,6 +45,11 @@
     background-color: transparent;
     background: transparent;
     overflow: hidden;
+  }
+
+  img {
+    width: 
+
   }
 
   span {
