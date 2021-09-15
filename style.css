@@ -39,22 +39,19 @@ body {
         font-weight: 900;
         color: white;
         text-shadow: 1px 1px 1px black;
-        /* margin:10% 1%; */
         text-align: center;
-        /* padding:40% 1%; */
         overflow: hidden;
-        /* width: 60%; */
         background-color: transparent;
         background: transparent;
         overflow: hidden;
         
     }
 
-  /* span {
-      color: green;
-      background: transparent;
-      justify-self: center;
-  } */
+    .animate__animated.animation__hearthBeat {
+      --animate-delay: 9s;
+      animation-iteration-count: infinite;
+    }
+
 
     img {
       background: transparent;
