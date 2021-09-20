@@ -1,4 +1,13 @@
-{
+[{
   "liveServer.settings.port": 5501,
   "compile-hero.disable-compile-files-on-did-save-code": true
-}
+},{
+  // test copilot
+  "github.copilot.enable": [{
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "secret_key": "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"
+  }]}]
+  // test copilot

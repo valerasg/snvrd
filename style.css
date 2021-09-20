@@ -9,57 +9,57 @@ body {
     background-image: url ('/images/bkg0.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     overflow: hidden;
     box-sizing: content-box;
 }
 
-  div { 
-    position:fixed;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr ;
-    justify-content: center;
-    align-content: center;
+div { 
+  position:fixed;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  background-color: transparent;
+  background: transparent;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 5%;
+  margin: 5%;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    /* margin:10% 1%; */
+    text-align: center;
+    /* padding:40% 1%; */
     overflow: hidden;
+    /* width: 60%; */
     background-color: transparent;
     background: transparent;
- }
+    overflow: hidden;
+    
+}
 
-    section {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      align-items: center;
-      padding: 5%;
-      margin: 5%;
-    }
+/* span {
+  color: green;
+  background: transparent;
+  justify-self: center;
+} */
 
-    h1 {
-        font-size: 46px;
-        font-weight: 900;
-        color: white;
-        text-shadow: 1px 1px 1px black;
-        /* margin:10% 1%; */
-        text-align: center;
-        /* padding:40% 1%; */
-        overflow: hidden;
-        /* width: 60%; */
-        background-color: transparent;
-        background: transparent;
-        overflow: hidden;
-        
-    }
-
-  /* span {
-      color: green;
-      background: transparent;
-      justify-self: center;
-  } */
-
-    img {
-      background: transparent;
-      flex: 8;
-    }
+img {
+  background: transparent;
+  flex: 8;
+}
 
 @media screen and (min-width: 900px) {
   h1 {
