@@ -56,11 +56,7 @@ flex: 8;
 background: transparent;
 }
 
-animation__hearthBeat {
-  animation-delay: 150ms;
-  animation-iteration-count: infinite;
-  background: content-box;
-}
+
 
 @media screen and (min-width: 900px) {
   h1 {
