@@ -6,16 +6,16 @@ body {
   padding: 0%;
   background-color: black;
   color: white;
-  background-image: url ('/images/bkg0.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
   overflow: hidden;
   box-sizing: content-box;
 }
 
 div { 
-  position:fixed;
+  background-image: url ('/images/bkg0.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  animation: animate__fadeOutRight;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr ;
   justify-content: center;
@@ -25,14 +25,6 @@ div {
   background: transparent;
 }
 
-  section {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  padding: 5%;
-  margin: 5%;
-}
 
 h1 {
   font-size: 46px;
