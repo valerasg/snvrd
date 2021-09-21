@@ -8,6 +8,6 @@
     "yaml": false,
     "plaintext": false,
     "markdown": false,
-    "secret_key": "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"
+    "secret_key": "OPENAI_API_KEY"
   }]}]
   // test copilot
