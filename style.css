@@ -68,5 +68,13 @@ img {
     width: 60%;
     margin:5% 5%; */
   }
-  
+
+  body {
+  background-image: url ('/images/bkg3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  box-sizing: content-box;
+  }
 }
